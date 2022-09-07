@@ -2,7 +2,7 @@
 \alias{euclidean}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Calculate the euclidean distance
+%- 
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
