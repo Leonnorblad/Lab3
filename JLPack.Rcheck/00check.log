@@ -1,0 +1,90 @@
+* using log directory 'C:/Users/Leonn/Documents/Lab3/JLPack.Rcheck'
+* using R version 4.0.2 (2020-06-22)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* using options '--no-manual --as-cran'
+* checking for file 'JLPack/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'JLPack' version '1.0'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking serialization versions ... OK
+* checking whether package 'JLPack' can be installed ... WARNING
+Found the following significant warnings:
+  Warning: C:/Users/Leonn/AppData/Local/Temp/RtmpWSNt64/Rbuild47fc7d052601/JLPack/man/JLPack-package.Rd:26: All text must be in a section
+  Warning: C:/Users/Leonn/AppData/Local/Temp/RtmpWSNt64/Rbuild47fc7d052601/JLPack/man/JLPack-package.Rd:27: All text must be in a section
+See 'C:/Users/Leonn/Documents/Lab3/JLPack.Rcheck/00install.out' for details.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+Non-standard license specification:
+  What license is it under?
+Standardizable: FALSE
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... WARNING
+prepare_Rd: JLPack-package.Rd:26: All text must be in a section
+prepare_Rd: JLPack-package.Rd:27: All text must be in a section
+prepare_Rd: euclidean.Rd:7-9: Dropping empty section \description
+prepare_Rd: euclidean.Rd:22-24: Dropping empty section \details
+prepare_Rd: euclidean.Rd:25-31: Dropping empty section \value
+prepare_Rd: euclidean.Rd:38-40: Dropping empty section \note
+prepare_Rd: euclidean.Rd:35-37: Dropping empty section \author
+prepare_Rd: euclidean.Rd:32-34: Dropping empty section \references
+prepare_Rd: euclidean.Rd:44-46: Dropping empty section \seealso
+checkRd: (5) euclidean.Rd:0-72: Must have a \description
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... NOTE
+Unknown package '<pkg>' in Rd xrefs
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... WARNING
+Warning: parse error in file 'JLPack-Ex.R':
+22:8: unexpected symbol
+21: 
+22: simple examples
+           ^
+* checking examples ... ERROR
+Running examples in 'JLPack-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: JLPack-package
+> ### Title: Our first package!
+> ### Aliases: JLPack-package JLPack
+> ### Keywords: package
+> 
+> ### ** Examples
+> 
+> simple examples of the most important functions
+Error: unexpected symbol in "simple examples"
+Execution halted
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 1 ERROR, 3 WARNINGs, 2 NOTEs
