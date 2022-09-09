@@ -9,6 +9,6 @@ Description: 2 packages!
 License: GPL-3 + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.2.1
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.6.3)
 NeedsCompilation: no
 Packaged: 2022-09-09 16:47:00 UTC; kbart
