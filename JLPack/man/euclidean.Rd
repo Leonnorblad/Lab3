@@ -7,13 +7,13 @@
 euclidean(a, b)
 }
 \arguments{
-\item{a, b}{are numeric scalars or integers}
+\item{a, b}{are numeric scalars or integers.}
 }
 \value{
 The greatest common divisor of \code{a} and \code{b}.
 }
 \description{
-Finds the greatest common divisor following the euclidean algorithm
+Finds the greatest common divisor following the euclidean algorithm.
 }
 \examples{
 
