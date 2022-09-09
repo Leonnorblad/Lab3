@@ -1,23 +1,21 @@
-#'Dijkstra
+#' Dijkstra
 #'
-#'Finds the shortest distance to each vertex in the graph from the initial node.
+#' Finds the shortest distance to each vertex in the graph from the initial node.
 #'
-#'@param graph A \code{data.frame} with three numeric variables named \code{v1}, \code{v2} and \code{w}. \code{v1} and \code{v2} are the graph edges, and  \code{w} is the corresponding weight of the edges.
-#'@param init_node A numeric scalar that exist in the graph.
+#' @param graph A \code{data.frame} with three numeric variables named \code{v1}, \code{v2} and \code{w}. \code{v1} and \code{v2} are the graph edges, and  \code{w} is the corresponding weight of the edges.
+#' @param init_node A numeric scalar that exist in the graph.
 #' 
 #' 
-#'@return A vector containing distances of the shortest path between the initial node and each vertices in order.
+#' @return A vector containing distances of the shortest path between the initial node and each vertices in order.
 #'
-#'@examples
-#'graph <- data.frame(v1 = c(1,1,1,2,2,2,2,3,3,3,4,4,5,5,6,6),
-#'v2 = c(2,3,4,1,3,4,6,1,2,5,1,2,3,6,2,5),
-#'w = c(5,3,10,5,7,2,14,3,7,1,10,2,1,7,14,7))
-#'
+#' @examples
+#' graph <- data.frame(v1 = c(1,1,1,2,2,2,2,3,3,3,4,4,5,5,6,6),
+#' v2 = c(2,3,4,1,3,4,6,1,2,5,1,2,3,6,2,5),
+#' w = c(5,3,10,5,7,2,14,3,7,1,10,2,1,7,14,7))
 #' dijkstra(graph, 1)
 #'
-#'@references
-#'Wikipedia contributors. (2022, August 21). Dijkstra's algorithm. In Wikipedia, The Free Encyclopedia. Retrieved 12:39, September 9, 2022, from \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm} 
-#'
+#' @references
+#' Wikipedia contributors. (2022, August 21). Dijkstra's algorithm. In Wikipedia, The Free Encyclopedia. Retrieved 12:39, September 9, 2022, from \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 
 dijkstra <- function(graph, init_node){
   

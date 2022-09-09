@@ -21,7 +21,6 @@ Finds the shortest distance to each vertex in the graph from the initial node.
 graph <- data.frame(v1 = c(1,1,1,2,2,2,2,3,3,3,4,4,5,5,6,6),
 v2 = c(2,3,4,1,3,4,6,1,2,5,1,2,3,6,2,5),
 w = c(5,3,10,5,7,2,14,3,7,1,10,2,1,7,14,7))
-
 dijkstra(graph, 1)
 
 }
