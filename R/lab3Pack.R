@@ -5,3 +5,5 @@
 #'
 #'
 #' @export
+ "dijkstra"
+ "euclidean"
