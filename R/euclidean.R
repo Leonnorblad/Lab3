@@ -8,7 +8,6 @@
 #'@return The greatest common divisor of \code{a} and \code{b}.
 #' 
 #'@examples
-#'
 #'euclidean(1013253152, 1251514)
 #'euclidean(85121215, 11182625192620156)
 #'
