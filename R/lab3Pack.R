@@ -4,6 +4,4 @@
 #'
 #'
 #'
-#' @export
- "dijkstra"
- "euclidean"
+#'

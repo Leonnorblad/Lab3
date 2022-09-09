@@ -16,6 +16,7 @@
 #'
 #' @references
 #' Wikipedia contributors. (2022, August 21). Dijkstra's algorithm. In Wikipedia, The Free Encyclopedia. Retrieved 12:39, September 9, 2022, from \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
+#' @export
 
 dijkstra <- function(graph, init_node){
   

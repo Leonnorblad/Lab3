@@ -14,6 +14,7 @@
 #' @references
 #' Wikipedia contributors. (2022, August 17). Euclidean algorithm. In Wikipedia, The Free Encyclopedia. Retrieved 11:30, September 9, 2022, from \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 #'
+#' @export
 
 euclidean <- function(a, b){
   # checks the input
