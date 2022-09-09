@@ -9,7 +9,6 @@
 \packageDescription{JLPack}
 }
 \details{
-
 The DESCRIPTION file:
 \packageDESCRIPTION{JLPack}
 \packageIndices{JLPack}
@@ -17,7 +16,6 @@ The DESCRIPTION file:
 }
 \author{
 \packageAuthor{JLPack}
-
 Maintainer: \packageMaintainer{JLPack}
 }
 \references{
