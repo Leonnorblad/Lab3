@@ -1,18 +1,18 @@
-#'Euclidean
+#' Euclidean
 #'
-#'Finds the greatest common divisor following the euclidean algorithm.
+#' Finds the greatest common divisor following the euclidean algorithm.
 #'
 #'
-#'@param a,b are numeric scalars or integers.
+#' @param a,b are numeric scalars or integers.
 #' 
-#'@return The greatest common divisor of \code{a} and \code{b}.
+#' @return The greatest common divisor of \code{a} and \code{b}.
 #' 
-#'@examples
-#'euclidean(1013253152, 1251514)
-#'euclidean(85121215, 11182625192620156)
+#' @examples
+#' euclidean(1013253152, 1251514)
+#' euclidean(85121215, 11182625192620156)
 #'
-#'@references
-#'Wikipedia contributors. (2022, August 17). Euclidean algorithm. In Wikipedia, The Free Encyclopedia. Retrieved 11:30, September 9, 2022, from \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+#' @references
+#' Wikipedia contributors. (2022, August 17). Euclidean algorithm. In Wikipedia, The Free Encyclopedia. Retrieved 11:30, September 9, 2022, from \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 #'
 
 euclidean <- function(a, b){
