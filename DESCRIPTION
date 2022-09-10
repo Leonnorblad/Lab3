@@ -4,11 +4,11 @@ Title: Our first package!
 Version: 1.0
 Date: 2022-09-09
 Author: Leon and Jaycub
-Maintainer: <leope744@student.liu.se>
+Maintainer: Leon <<leope744@student.liu.se>
 Description: 2 packages!
 License: GPL-3 + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.2.1
-Depends: R (>= 3.6.3)
+Depends: R (>= 3.5.0)
 NeedsCompilation: no
 Packaged: 2022-09-09 16:47:00 UTC; kbart
