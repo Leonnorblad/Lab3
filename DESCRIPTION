@@ -12,3 +12,7 @@ RoxygenNote: 7.2.1
 Depends: R (>= 3.5.0)
 NeedsCompilation: no
 Packaged: 2022-09-09 16:47:00 UTC; kbart
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
